@@ -84,7 +84,7 @@ Expected result: `All KESTREL core tests passed.` These are **software policy te
 The intended baseline is an eight-servo printable quadruped, an ESP32-S3-class controller, separate servo PWM/power hardware, an OLED status display, and a replaceable sensor pod. The actual geometry, component fit, current draw, sensor angles, and power integrity must be confirmed against the CAD and measured prototype.
 
 - [CAD handoff instructions and pending-file register](hardware/cad/source/README.md)
-- [Parts, cost assumptions, and the $400 ceiling](docs/PROJECT_PLAN.md#budget-target-usd)
+- [Parts, cost assumptions, and the $400 ceiling](docs/PROJECT_PLAN.md)
 - [Hardware validation and test log](docs/TEST_PLAN.md)
 - [Safety limitations](docs/SAFETY.md)
 

@@ -1,4 +1,4 @@
-# Project KESTREL — Sesame Scout Upgrade
+# KESTREL Scout — project plan
 
 **Version:** 0.1 concept and build plan  
 **Budget ceiling:** USD $400 all-in, including printer and starter tools  
