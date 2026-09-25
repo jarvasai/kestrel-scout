@@ -103,7 +103,7 @@ See [the roadmap](docs/ROADMAP.md) and [test plan](docs/TEST_PLAN.md) for accept
 
 ## Funding transparency
 
-The current funding plan is a **proposal**, not a receipt or proof of purchase. The $400 target assumes U.S.-priced parts and a used/refurbished 220×220 mm-or-larger FDM printer at no more than $130. A new printer listed at $199 consumes the whole estimated hardware/tools subtotal before checkout costs. See [the itemized budget and milestone outcomes](docs/PROJECT_PLAN.md) and the [draft funding brief](docs/FUNDING_BRIEF.md).
+The current funding plan is a **proposal**, not a receipt or proof of purchase. The $400 target assumes U.S.-priced parts and a used/refurbished 220×220 mm-or-larger FDM printer at no more than $130. A new printer listed at $199 consumes the whole estimated hardware/tools subtotal before checkout costs. See the [one-page overview](docs/ONE_PAGE_OVERVIEW.md), [itemized budget and milestones](docs/PROJECT_PLAN.md), and [draft funding brief](docs/FUNDING_BRIEF.md). Personalize the application draft with your own true motivation, experience, and timeline before submitting.
 
 ## Attribution and relationship to Sesame
 
