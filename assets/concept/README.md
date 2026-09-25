@@ -1,0 +1,3 @@
+# Concept image provenance
+
+`kestrel-hero.png` is an AI-generated concept illustration created for the KESTREL repository on 2026-09-26. It is an aspirational visual aid—not a photograph, CAD render, engineering drawing, tested assembly, or proof that the pictured hardware fits or works. The exact printed geometry and sensor arrangement remain pending the maker's CAD files and physical validation. It contains no text, source-project branding, or third-party project photograph.

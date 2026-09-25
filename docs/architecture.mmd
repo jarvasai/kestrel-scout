@@ -1,0 +1,30 @@
+flowchart LR
+  Operator[Phone or serial operator] -->|manual command / mission intent| API[Command and status adapter]
+  API --> Mission[Behavior policy core]
+
+  ToF[Front range and side scan] --> Sensors[Validated sensor snapshot]
+  IMU[IMU tilt estimate] --> Sensors
+  Floor[Downward floor sensors] --> Sensors
+  Bumper[Bumper input] --> Sensors
+  Sensors --> Safety[Safety supervisor]
+  Safety -->|fresh, plausible readings| Mission
+  Safety -->|hazard, stale data, emergency| Stop[Latched stop]
+
+  Mission -->|short, interruptible action| Adapter[Board and gait adapter]
+  Stop -->|stop request| Adapter
+  Adapter --> ServoPWM[PWM driver]
+  ServoPWM --> Servos[Eight leg servos]
+  Mission --> OLED[OLED face and status]
+
+  Battery[Protected battery and fuse] --> Regulator[Separate rated servo rail]
+  Regulator --> ServoPWM
+  Battery --> Logic[Regulated logic rail]
+  Logic --> MCU[ESP32-S3 class controller]
+  MCU --- API
+  MCU --- Sensors
+  MCU --- Safety
+  MCU --- Adapter
+
+  classDef planned fill:#fff4e6,stroke:#d97706,color:#111827;
+  classDef notBuilt fill:#f3f4f6,stroke:#6b7280,color:#374151;
+  class Operator,API,Mission,ToF,IMU,Floor,Bumper,Sensors,Safety,Stop,Adapter,ServoPWM,Servos,OLED,Battery,Regulator,Logic,MCU planned;

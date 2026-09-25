@@ -1,0 +1,37 @@
+name: Bug report
+about: Report a reproducible software issue or hardware test failure
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Do not post passwords, personal data, battery serials, or addresses.
+        This project is a prototype; stop using a robot if behavior or power seems unsafe.
+  - type: input
+    id: commit
+    attributes:
+      label: Commit or release
+      placeholder: commit SHA or release tag
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include exact inputs, test setup, floor/surface, lighting, and expected vs. observed result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or test data
+      description: Attach sanitized serial output, measured values, or a safe photo. State if this is a physical test.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I stopped testing if there was unexpected motion, heating, a reset, or a battery concern.
+          required: true

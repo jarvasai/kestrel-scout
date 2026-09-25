@@ -1,0 +1,26 @@
+# Host test and local build outputs
+/build/
+*.o
+*.a
+*.so
+*.exe
+kestrel-core-tests
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# CAD temporary and autosave files — explicitly reviewed source files may be tracked
+*.autosave
+*.bak
+*.lock
+*~

@@ -1,0 +1,9 @@
+KESTREL Scout — project notice
+
+The original KESTREL behavior-policy prototype and new documentation in this repository are offered under the Apache License 2.0 in LICENSE.
+
+KESTREL is an independent project inspired by the publicly available Sesame Robot Project by Dorian Todd (https://github.com/dorianborian/sesame-robot). This repository is not maintained, sponsored, or endorsed by the Sesame creator. No Sesame CAD, product photograph, or upstream firmware file is included in this initial KESTREL snapshot. Any future imported or adapted material must carry its upstream notices and an explicit compatible license in the relevant folder.
+
+The concept illustration at assets/concept/kestrel-hero.png is AI-generated concept art, not a photograph or engineering specification.
+
+Third-party CAD, assets, or dependencies added later may have different license terms. Their authors and license files must be credited and respected; the project-wide license does not override them.
