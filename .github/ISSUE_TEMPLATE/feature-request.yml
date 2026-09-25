@@ -1,5 +1,5 @@
 name: Feature request
-about: Suggest a scoped feature, test, CAD improvement, or documentation change
+description: Suggest a scoped feature, test, CAD improvement, or documentation change
 labels: [enhancement]
 body:
   - type: textarea

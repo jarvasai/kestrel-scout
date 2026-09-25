@@ -1,5 +1,5 @@
 name: Bug report
-about: Report a reproducible software issue or hardware test failure
+description: Report a reproducible software issue or hardware test failure
 labels: [bug]
 body:
   - type: markdown
